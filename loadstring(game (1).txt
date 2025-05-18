@@ -1,0 +1,201 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/R7KScript/usernaxo/refs/heads/main/GUI3")))()
+MakeWindow({
+  Hub = {
+    Title = "B9 HUB",
+    Animation = "جار التحميل... "
+  },
+  Key = {
+    KeySystem = false,
+    Title = "Key System",
+    Description = "",
+    KeyLink = "",
+    Keys = {"1234"},
+    Notifi = {
+      Notifications = true,
+      CorrectKey = "Running the Script...",
+      Incorrectkey = "The key is incorrect",
+      CopyKeyLink = "Copied to Clipboard"
+    }
+  }
+})
+MinimizeButton({
+  Image = "rbxassetid://120440277302800",
+  Size = {40, 40},
+  Color = Color3.fromRGB(255, 125, 0),
+  Corner = true,
+  Stroke = false,
+  StrokeColor = Color3.fromRGB(255, 125, 0)
+})
+
+local Main = MakeTab({Name = "Brookhaven"})
+AddButton(Main, {
+  Name = "سكربت K7",
+  Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-K7-HUB-34537"))()
+  end
+})
+AddButton(Main, {
+  Name ="سكربت مال ني*",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/VR7ss/OMK/refs/heads/main/VR7-ON-TOP"))()
+  end
+})
+AddButton(Main, {
+  Name = "سكربت نسخ و كلشي وكلاشي",
+  Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-rochips-universal-18294"))()
+  end
+})
+AddButton(Main, {
+  Name = "سكربت sp",
+  Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-SP-Hub-New-Uptade-1o3v-33364"))()
+  end
+})
+AddButton(Main, {
+  Name = "سكربت حيدر",
+  Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/R7KScript/Arabic-speed/refs/heads/main/Brooke.Lua'))()
+  end
+})
+AddButton(Main, {
+  Name = "سكربت سجاد",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sadfffaj/-/refs/heads/main/Protected_3892383472327512.txt"))()
+  end
+})
+local Main = MakeTab({Name = "Blox Fruit"})
+AddButton(Main, {
+  Name = "ريدز",
+  Callback = function()
+local Settings = {
+
+  JoinTeam = "Pirates"; -- Pirates/Marines
+
+  Translator = true; -- true/false
+
+}
+
+ 
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)
+  end
+})
+AddButton(Main, {
+  Name = "سكربت روبو",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/RubuRoblox/refs/heads/main/RubuBF"))()
+  end
+})
+AddButton(Main, {
+  Name = "Whub",
+  Callback = function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  end
+})
+AddButton(Main, {
+  Name = "القمر",
+  Callback = function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
+  end
+})
+local Main = MakeTab({Name = "Evade"})
+AddButton(Main, {
+  Name = "سكربت رهيب",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Evade"))()
+  end
+})
+AddButton(Main, {
+  Name = "سكربت خرافي",
+  Callback = function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Robobo2022/script/main/Main.lua"), true))()
+  end
+})
+AddButton(Main, {
+  Name = "سكربت خيالي",
+  Callback = function()
+loadstring(game:HttpGet("https://scriptblox.com/raw/UPDATE-Evade-Evade-UPDATED-5514"))()
+  end
+})
+AddButton(Main, {
+  Name = "سكربت رهييييييب",
+  Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Evade/main/Main.lua'))()
+  end
+})
+local Main = MakeTab({Name = "Dead Rails"})
+AddButton(Main, {
+  Name = "سكربت نايس",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TwoGunVolley/Dedrail/refs/heads/main/Protected_8860927939362090.txt"))()
+  end
+})
+AddButton(Main, {
+  Name = "افضل سكربت شفته لحد الان",
+  Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/m00ndiety/dead-rails-teleport-everywhere/refs/heads/main/teleport%20all%20locations'))()
+  end
+})
+AddButton(Main, {
+  Name = "سكربت خرافي",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SpiderScriptRB/Dead-Rails-SpiderXHub-Script/refs/heads/main/SpiderXHub%202.0.txt"))()
+  end
+})
+AddButton(Main, {
+  Name = "سكربت قوي",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/refs/heads/main/TbaoHubDeadRails"))()
+  end
+})
+AddButton(Main, {
+  Name = "سكربت تجميع سندات",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/refs/heads/ok/dead%20rails"))()
+  end
+})
+local Main = MakeTab({Name = "Grow a Garden"})
+AddButton(Main, {
+  Name = "سكربت خرافي",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kenniel123/Grow-a-garden/refs/heads/main/Grow%20A%20Garden"))()
+  end
+})
+AddButton(Main, {
+  Name = "سكربت خيال",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gumanba/Scripts/main/GrowaGarden"))()
+  end
+})
+AddButton(Main, {
+  Name = "سكربت ولا اروع",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kenniel123/Grow-a-garden/refs/heads/main/Grow%20A%20Garden"))()
+  end
+})
+AddButton(Main, {
+  Name = "سكربت كلشي بيه",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NittarPP/PhotonScript/refs/heads/main/Loading/Loading.lua"))()
+  end
+})
+local Main = MakeTab({Name = "MM2"})
+AddButton(Main, {
+  Name = "سكربت ولا اروع",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", true))()
+  end
+})
+AddButton(Main, {
+  Name = "سكربت تجميع",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vexroxd/My-Script-/refs/heads/main/MM2-Candy-Farm"))()
+  end
+})
+AddButton(Main, {
+  Name = "سكربت كلشي وكلاشي",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dexz00/DzHub/refs/heads/main/Jujutsu%20Infinite"))()
+  end
+})
